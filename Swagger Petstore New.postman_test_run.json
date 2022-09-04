@@ -1,0 +1,296 @@
+{
+	"id": "aa62861d-4bcf-4768-a614-71d1ae55dd1d",
+	"name": "Swagger Petstore New",
+	"timestamp": "2022-09-04T15:09:16.348Z",
+	"collection_id": "22771078-483f0e54-c586-458a-9d4c-2a26c2a03511",
+	"folder_id": 0,
+	"environment_id": "22771078-8539ed60-b1b1-4f7a-b77f-0c2bf574d1e5",
+	"totalPass": 14,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b6238961-83e2-406a-94ec-a27b1cbfd3e0",
+			"name": "Find pet by ID",
+			"url": "https://petstore.swagger.io/v2/pet/9223372036854313555",
+			"time": 223,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK string": true,
+				"Verify that name pets is 'doggie'": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that name pets is 'doggie'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				223
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK string": true,
+					"Verify that name pets is 'doggie'": true
+				}
+			]
+		},
+		{
+			"id": "77f78861-75bd-454b-ac6d-89c2e7cf5dab",
+			"name": "Finds Pets by status",
+			"url": "https://petstore.swagger.io/v2/pet/findByStatus?status=string",
+			"time": 208,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK string": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				208
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK string": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "5d26ebf2-51ae-4d64-bd64-a536e0f317ea",
+			"name": "Finds Pets by tags",
+			"url": "https://petstore.swagger.io/v2/pet/findByTags?tags=laboris%20esse",
+			"time": 209,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				209
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK string": true
+				}
+			]
+		},
+		{
+			"id": "9f17af66-40ba-4ace-a93b-606f62ff9ad0",
+			"name": "Find purchase order by ID",
+			"url": "https://petstore.swagger.io/v2/store/order/7",
+			"time": 213,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				213
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK string": true
+				}
+			]
+		},
+		{
+			"id": "59a269ce-b61a-4b33-8549-5a8387084b74",
+			"name": "Returns pet inventories by status",
+			"url": "https://petstore.swagger.io/v2/store/inventory",
+			"time": 232,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				232
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK string": true
+				}
+			]
+		},
+		{
+			"id": "dd83434f-e2aa-44a0-9bb6-8f60f5dfbd8f",
+			"name": "Get user by user name",
+			"url": "https://petstore.swagger.io/v2/user/amet%20do%20adipisicing",
+			"time": 205,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				205
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bc1bd443-4426-4111-97d2-c300ab5177f2",
+			"name": "Logs user into the system",
+			"url": "https://petstore.swagger.io/v2/user/login?username=ea%20dolor&password=cillum%20dolor",
+			"time": 226,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				226
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK string": true
+				}
+			]
+		},
+		{
+			"id": "58ed7107-c47b-4d6e-82fa-d7fd18bd1a2d",
+			"name": "Logs out current logged in user session",
+			"url": "https://petstore.swagger.io/v2/user/logout",
+			"time": 216,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				216
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1732,
+	"collection": {
+		"requests": [
+			{
+				"id": "b6238961-83e2-406a-94ec-a27b1cbfd3e0",
+				"method": "GET"
+			},
+			{
+				"id": "77f78861-75bd-454b-ac6d-89c2e7cf5dab",
+				"method": "GET"
+			},
+			{
+				"id": "5d26ebf2-51ae-4d64-bd64-a536e0f317ea",
+				"method": "GET"
+			},
+			{
+				"id": "9f17af66-40ba-4ace-a93b-606f62ff9ad0",
+				"method": "GET"
+			},
+			{
+				"id": "59a269ce-b61a-4b33-8549-5a8387084b74",
+				"method": "GET"
+			},
+			{
+				"id": "dd83434f-e2aa-44a0-9bb6-8f60f5dfbd8f",
+				"method": "GET"
+			},
+			{
+				"id": "bc1bd443-4426-4111-97d2-c300ab5177f2",
+				"method": "GET"
+			},
+			{
+				"id": "58ed7107-c47b-4d6e-82fa-d7fd18bd1a2d",
+				"method": "GET"
+			}
+		]
+	}
+}
